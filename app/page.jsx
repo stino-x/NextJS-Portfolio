@@ -31,7 +31,7 @@ const Home = () => {
                 size="lg"
                 className="uppercase flex items-center gap-2"
               >
-                <span>Download CV</span>
+                {/* <span>Download CV</span> */}
                 <FiDownload className="text-xl" />
                 <DownloadButton />
               </Button>
@@ -49,7 +49,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <Stats />
+      {/* <Stats /> */}
     </section>
   );
 };
