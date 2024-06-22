@@ -15,31 +15,23 @@ import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 const about = {
   title: "About me",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "Im a determined type ofperson, i love routines, im very interested in knowledge in genral so i love the oppurtunity to learn anything I make music as a pass time and i love football I also believe in giving people chances",
   info: [
     {
       fieldName: "Name",
-      fieldValue: "Luke Coleman",
+      fieldValue: "Iheagwara Augustine",
     },
     {
       fieldName: "Phone",
-      fieldValue: "(+40) 321 654 678",
-    },
-    {
-      fieldName: "Experience",
-      fieldValue: "12+ Years",
-    },
-    {
-      fieldName: "Skype",
-      fieldValue: "luke.01",
+      fieldValue: "(+36) 70 301 6866",
     },
     {
       fieldName: "Nationality",
-      fieldValue: "American",
+      fieldValue: "Nigerian",
     },
     {
       fieldName: "Email",
-      fieldValue: "luke.01@gmail.com",
+      fieldValue: "austindev214@gmail.com",
     },
     {
       fieldName: "Freelance",
@@ -47,7 +39,7 @@ const about = {
     },
     {
       fieldName: "Languages",
-      fieldValue: "English, Spanish",
+      fieldValue: "English",
     },
   ],
 };
@@ -57,37 +49,12 @@ const experience = {
   icon: "/assets/resume/badge.svg",
   title: "My experience",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "I went through a coding bootcamp that simulated the modern dev life to the atom, and because of this and the hundreds of hours i have in front of the screen i have what it takes to fit into the current tech space smoothly",
   items: [
     {
-      company: "Tech Solutions Inc.",
+      company: "Microverse(Mentor role)",
       position: "Full Stack Developer",
       duration: "2022 - Present",
-    },
-    {
-      company: "Web Design Studio",
-      position: "Front-End Developer Intern",
-      duration: "Summer 2021",
-    },
-    {
-      company: "E-commerce Startup",
-      position: "Freelance Web Developer",
-      duration: "2020 - 2021",
-    },
-    {
-      company: "Tech Academy",
-      position: "Teaching Assistant",
-      duration: "2019 - 2020",
-    },
-    {
-      company: "Digital Agency",
-      position: "UI/UX Designer",
-      duration: "2018 - 2019",
-    },
-    {
-      company: "Software Development Firm",
-      position: "Junior Developer",
-      duration: "2017 - 2018",
     },
   ],
 };
@@ -97,37 +64,17 @@ const education = {
   icon: "/assets/resume/cap.svg",
   title: "My education",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "This is how i got into the craft  and the formal training i have",
   items: [
     {
-      institution: "Online Course Platform",
+      institution: "Microverse",
       degree: "Full Stack Web Development Bootcamp",
-      duration: "2023",
+      duration: "2022 - 2024",
     },
     {
-      institution: "Codecademy",
-      degree: "Front-end Track",
-      duration: "2022",
-    },
-    {
-      institution: "Online Course",
-      degree: "Programming Course",
-      duration: "2020 - 2021",
-    },
-    {
-      institution: "Tech Institute",
-      degree: "Certified Web Developer",
-      duration: "2019",
-    },
-    {
-      institution: "Design School",
-      degree: "Diploma in Graphic Design",
-      duration: "2016 - 2018",
-    },
-    {
-      institution: "Community College",
-      degree: "Associate Degree in Computer Science",
-      duration: "2014 - 2016",
+      institution: "Eotvos  Lorand  University",
+      degree: "Computer Science",
+      duration: "2023 -  now",
     },
   ],
 };

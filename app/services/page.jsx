@@ -28,8 +28,7 @@ const services = [
   {
     num: "04",
     title: "SEO",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
     href: "",
   },
 ];

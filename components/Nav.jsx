@@ -2,16 +2,17 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { ModeToggle } from "./themeButton";
 
 const links = [
   {
     name: "home",
     path: "/",
   },
-  {
-    name: "services",
-    path: "/services",
-  },
+  // {
+  //   name: "services",
+  //   path: "/services",
+  // },
   {
     name: "resume",
     path: "/resume",
