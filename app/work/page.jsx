@@ -22,36 +22,57 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
   {
     num: "01",
-    category: "frontend",
-    title: "project 1",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate magnam modi.",
-    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
-    image: "/assets/work/thumb1.png",
-    live: "",
-    github: "",
+    category: "fullstack",
+    title: "MEET-UP",
+    description: "A modern video conferencing platform offering high-quality video calls, screen sharing, and real-time chat. Built with Next.js, Clerk for authentication, and Stream for video capabilities.",
+    stack: [
+      { name: "Next.js" },
+      { name: "React.js" },
+      { name: "Tailwind CSS" },
+      { name: "Node.js" },
+      { name: "Clerk" },
+      { name: "Stream" }
+    ],
+    image: "/assets/work/meetup-thumb.png", // You'll need to provide an appropriate image
+    live: "https://meet-up-phi.vercel.app/",
+    github: "https://github.com/stino-x/MEET-UP",
   },
   {
     num: "02",
     category: "fullstack",
-    title: "project 2",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate magnam modi.",
-    stack: [{ name: "Next.js" }, { name: "Tailwind.css" }, { name: "Node.js" }],
-    image: "/assets/work/thumb2.png",
-    live: "",
-    github: "",
+    title: "Learn City",
+    description: "An online learning platform with course management, secure payments via Stripe, and user authentication. Features include dynamic webhooks and responsive design.",
+    stack: [
+      { name: "Next.js" },
+      { name: "React.js" },
+      { name: "Tailwind CSS" },
+      { name: "Node.js" },
+      { name: "Prisma" },
+      { name: "PostgreSQL" },
+      { name: "Clerk" },
+      { name: "Stripe" }
+    ],
+    image: "/assets/work/learncity-thumb.png", // You'll need to provide an appropriate image
+    live: "https://learn-city.vercel.app/",
+    github: "https://github.com/stino-x/LEARN-CITY",
   },
   {
     num: "03",
-    category: "frontend",
-    title: "project 3",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate magnam modi.",
-    stack: [{ name: "Next.js" }, { name: "Tailwind.css" }],
-    image: "/assets/work/thumb3.png",
-    live: "",
-    github: "",
+    category: "fullstack",
+    title: "RentApp",
+    description: "An Airbnb clone allowing users to list, discover, and book accommodations. Features include user authentication, property listings, and a booking system.",
+    stack: [
+      { name: "React" },
+      { name: "Next.js" },
+      { name: "TailwindCSS" },
+      { name: "Node.js" },
+      { name: "MongoDB" },
+      { name: "Prisma" },
+      { name: "NextAuth" }
+    ],
+    image: "/assets/work/rentapp-thumb.png", // You'll need to provide an appropriate image
+    live: "https://rent-app-austin.vercel.app/",
+    github: "https://github.com/stino-x/AIRBNB-CLONE",
   },
 ];
 
