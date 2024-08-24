@@ -27,13 +27,10 @@ const projects = [
     description: "A modern video conferencing platform offering high-quality video calls, screen sharing, and real-time chat. Built with Next.js, Clerk for authentication, and Stream for video capabilities.",
     stack: [
       { name: "Next.js" },
-      { name: "React.js" },
-      { name: "Tailwind CSS" },
-      { name: "Node.js" },
       { name: "Clerk" },
       { name: "Stream" }
     ],
-    image: "/assets/work/meetup-thumb.png", // You'll need to provide an appropriate image
+    image: "/meet-up.png", // You'll need to provide an appropriate image
     live: "https://meet-up-phi.vercel.app/",
     github: "https://github.com/stino-x/MEET-UP",
   },
@@ -43,16 +40,12 @@ const projects = [
     title: "Learn City",
     description: "An online learning platform with course management, secure payments via Stripe, and user authentication. Features include dynamic webhooks and responsive design.",
     stack: [
-      { name: "Next.js" },
-      { name: "React.js" },
-      { name: "Tailwind CSS" },
-      { name: "Node.js" },
       { name: "Prisma" },
       { name: "PostgreSQL" },
       { name: "Clerk" },
       { name: "Stripe" }
     ],
-    image: "/assets/work/learncity-thumb.png", // You'll need to provide an appropriate image
+    image: "/learncity", // You'll need to provide an appropriate image
     live: "https://learn-city.vercel.app/",
     github: "https://github.com/stino-x/LEARN-CITY",
   },
@@ -62,15 +55,12 @@ const projects = [
     title: "RentApp",
     description: "An Airbnb clone allowing users to list, discover, and book accommodations. Features include user authentication, property listings, and a booking system.",
     stack: [
-      { name: "React" },
-      { name: "Next.js" },
-      { name: "TailwindCSS" },
       { name: "Node.js" },
       { name: "MongoDB" },
       { name: "Prisma" },
       { name: "NextAuth" }
     ],
-    image: "/assets/work/rentapp-thumb.png", // You'll need to provide an appropriate image
+    image: "/rent.png", // You'll need to provide an appropriate image
     live: "https://rent-app-austin.vercel.app/",
     github: "https://github.com/stino-x/AIRBNB-CLONE",
   },
