@@ -45,7 +45,7 @@ const projects = [
       { name: "Clerk" },
       { name: "Stripe" }
     ],
-    image: "/learncity", // You'll need to provide an appropriate image
+    image: "/learncity.png", // You'll need to provide an appropriate image
     live: "https://learn-city.vercel.app/",
     github: "https://github.com/stino-x/LEARN-CITY",
   },
