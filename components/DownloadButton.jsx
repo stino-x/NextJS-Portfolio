@@ -3,7 +3,7 @@ import React from 'react';
 
 const DownloadButton = () => {
   return (
-    <a href="/filename.pdf" download="filename.pdf">
+    <a href="/Iheagwara Augustine.pdf" download="Iheagwara Augustine.pdf">
       Download CV
     </a>
   );
